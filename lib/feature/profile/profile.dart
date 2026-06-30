@@ -152,7 +152,7 @@ class profile extends StatelessWidget {
               child: Icon(
                 Icons.person,
                 size: 48,
-                color: AppColors.iconColor,
+                color: AppColors.mainColor,
               ),
             ),
           ),
@@ -183,7 +183,7 @@ class profile extends StatelessWidget {
             onPressed: () {},
             style: ElevatedButton.styleFrom(
               backgroundColor:AppColors.cardcolor ,
-              foregroundColor:AppColors.iconColor ,
+              foregroundColor:AppColors.mainColor ,
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 10),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20),
@@ -195,6 +195,7 @@ class profile extends StatelessWidget {
       ),
     );
   }
+
  Widget buildSettingTile({
 
     required String title,
@@ -261,7 +262,7 @@ class profile extends StatelessWidget {
 
         Icon(
           icon,
-          color: AppColors.iconColor,
+          color: AppColors.mainColor,
           size: 22,
         ),
 

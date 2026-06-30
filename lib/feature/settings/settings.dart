@@ -22,7 +22,7 @@ class settings extends StatelessWidget {
           
           Text("General",
             style: TextStyle(
-            color: AppColors.iconColor,
+            color: AppColors.mainColor,
             fontWeight: FontWeight.bold,
             fontSize: 18, ),
           ),
@@ -44,7 +44,7 @@ class settings extends StatelessWidget {
         trailing: Switch(
           value: false,
           onChanged: (value) {},
-          activeColor: AppColors.iconColor,
+          activeThumbColor: AppColors.mainColor,
         ),
       ),
 
@@ -55,7 +55,7 @@ class settings extends StatelessWidget {
         title: Text("Notifications"),
         trailing: Switch(
           value: true,
-          activeColor: AppColors.iconColor,
+          activeThumbColor: AppColors.mainColor,
           onChanged: (value) {},
         ),
       ),
@@ -74,7 +74,7 @@ class settings extends StatelessWidget {
    SizedBox(height:20 ,),
  Text("Account",
             style: TextStyle(
-            color: AppColors.iconColor,
+            color: AppColors.mainColor,
             fontWeight: FontWeight.bold,
             fontSize: 18, ),
           ),
@@ -118,7 +118,7 @@ class settings extends StatelessWidget {
 SizedBox(height:20 ,),
  Text("About",
             style: TextStyle(
-            color: AppColors.iconColor,
+            color: AppColors.mainColor,
             fontWeight: FontWeight.bold,
             fontSize: 18, ),
           ),

@@ -6,4 +6,5 @@ class AppAssets {
   static String tennis_racket='assets/tennis-racket.jpg';
   static String yoga_mat='assets/yoga-mat.jpg';
   static String profile ='assets/profile.jpg';
+  static String logo = 'assets/logo.jpg';
 }

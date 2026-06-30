@@ -121,7 +121,7 @@ Widget prodCard({
             width: 36,
             height: 36,
             decoration: BoxDecoration(
-              color: AppColors.iconColor,
+              color: AppColors.mainColor,
               shape: BoxShape.rectangle,
             ),
             child: const Icon(
